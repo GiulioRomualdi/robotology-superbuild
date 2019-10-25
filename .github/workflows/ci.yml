@@ -65,6 +65,8 @@ jobs:
         brew install matio
         # ROBOTOLOGY_USES_GAZEBO dependencies 
         brew install osrf/simulation/gazebo10
+        # CI-specific dependencies 
+        brew install ninja
 
     # ===================
     # CMAKE-BASED PROJECT
