@@ -58,6 +58,7 @@ jobs:
     - name: Dependencies [MacOS]
       if: matrix.os == 'macOS-10.14'
       run: |
+        cmake --version
         brew cask install xquartz
         # Core dependencies 
         brew install ace boost cmake eigen gsl ipopt jpeg libedit opencv@3 pkg-config qt5 sqlite swig tinyxml
