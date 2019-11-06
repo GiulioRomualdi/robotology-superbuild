@@ -62,7 +62,7 @@ jobs:
         # Core dependencies 
         brew install ace boost cmake eigen gsl ipopt jpeg libedit opencv@3 pkg-config qt5 sqlite swig tinyxml
         # ROBOTOLOGY_ENABLE_DYNAMICS dependencies 
-        brew install matio
+        brew install libmatio
         # ROBOTOLOGY_USES_GAZEBO dependencies 
         brew install osrf/simulation/gazebo10
         # CI-specific dependencies 
