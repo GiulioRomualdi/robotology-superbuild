@@ -102,7 +102,8 @@ endif()
 # Bootstrap YCM
 set(YCM_FOLDER robotology)
 set(YCM_COMPONENT core)
-set(YCM_TAG v0.10.4)
+# Working commit that is not affected by https://github.com/robotology/ycm/issues/290
+set(YCM_TAG 01f2fff00bd181009d511ec1df6c42ea40052705)
 set(YCM_MINIMUM_VERSION 0.10.4)
 include(YCMBootstrap)
 
