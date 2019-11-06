@@ -25,10 +25,10 @@ jobs:
             cmake_generator: "Unix Makefiles"
           - os: ubuntu-latest
             build_type: Release
-            cmake_generator: "Ninja"
+            cmake_generator: "Unix Makefiles"
           - os: macOS-10.14
             build_type: Debug
-            cmake_generator: "Ninja"
+            cmake_generator: "Xcode"
           - os: macOS-10.14
             build_type: Release
             cmake_generator: "Unix Makefiles"
